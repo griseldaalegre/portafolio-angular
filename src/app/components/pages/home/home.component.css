@@ -1,0 +1,16 @@
+.container-home{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-weight: unset;
+}
+
+img{
+    width: 35%;
+}
+
+.icon-text {
+    margin-left: 5px; /* Ajusta este valor según el espacio deseado */
+}

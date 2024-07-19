@@ -1,0 +1,31 @@
+.container-about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-bg h1,
+p {
+    color: #35383b;
+}
+
+img {
+    width: 23%;
+    float: left;
+    margin-right: 25px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-container-formation  {
+    background-color: #f0f4f8;
+}
+
+.text-color {
+    color: #2c3e50;
+}
+
+.text-description {
+    color: #7f8c8d;
+}

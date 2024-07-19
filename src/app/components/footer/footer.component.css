@@ -1,0 +1,12 @@
+.footer-bg {
+    padding: 16px;
+  }
+
+  footer a{
+
+    font-weight: lighter;
+  }
+
+  .icon-text {
+    margin-left: 5px; /* Ajusta este valor según el espacio deseado */
+}

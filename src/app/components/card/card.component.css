@@ -1,0 +1,15 @@
+.card-color {
+    background-color: #f0f4f8;
+}
+
+.card {
+    max-width: 400px;
+}
+
+.card-title {
+    color: #2c3e50;
+}
+
+.card-text {
+    color: #7f8c8d;
+}

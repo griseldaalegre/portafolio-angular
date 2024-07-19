@@ -1,0 +1,12 @@
+.navbar, .container-fluid{
+  padding: 13px;
+}
+
+.navbar a {
+  font-size:25px;
+  font-weight: lighter;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+<div class="container container-about">
+    <div class="d-flex align-items-start">
+        <h1 class="text-uppercase ">Sobre mi</h1>
+    </div>
+    <div class="text-justify">
+        <img class="" src="./../../../../assets/d2.png" alt="">
+        <p>Hola, soy Griselda, desarrolladora Frontend en formación.</p>
+        <p>Actualmente cursando una Tecnicatura en Desarrollo de Aplicaciones en la
+            Universidad Nacional del Centro (Unicen), ademas estoy capacitandome en Angular.
+        </p>
+        <p>Mi experiencia incluye la participación en bootcamps y cursos de programación, adquiriendo
+            habilidades en HTML, CSS, JavaScript, PHP, Git, GitHub, así como
+            conocimientos básicos en Java y Angular.</p>
+        <p>Antes de adentrarme en el mundo tecnológico, trabajé en una empresa de
+            seguridad, gestionando el control de acceso, inventario y ofreciendo
+            orientación al cliente. Esta experiencia me brindó valiosas lecciones
+            sobre el trabajo en equipo, la comunicación y la organización con mis
+            compañeros.
+        </p>
+        <p>Además, tengo experiencia en atención al cliente, asumiendo
+            responsabilidades de forma independiente y desarrollando habilidades de
+            organización y gestión del tiempo para cumplir eficientemente con las
+            tareas asignadas.
+        </p>
+        <p>Gestioné mi propio emprendimiento, manejando y
+            diseñando contenido para redes sociales, demostrando habilidades de
+            organización en la gestión de stock.</p>
+        <p>Mi enfoque no solo se centra en el desarrollo técnico, sino también en
+            la capacidad de trabajo colaborativo, la comunicación efectiva y la
+            gestión eficiente del tiempo.</p>
+        <p> Estoy entusiasmada por seguir aprendiendo
+            y contribuir al crecimiento del desarrollo de software.</p>
+
+    </div>
+
+    <div class="container mt-5 p-4 bg-container-formation rounded">
+        <h1 class="text-uppercase mb-4">Formación</h1>
+        <ul class="list-unstyled d-flex flex-wrap">
+            @for(formation of formations; track formation){
+            <li class="mb-2 col-md-6">
+                <h3 class="h5 text-color">{{ formation?.title }}</h3>
+                <p class="text-description">{{ formation?.description }}</p>
+            </li>
+            }
+        </ul>
+    </div>
+
+
+</div>

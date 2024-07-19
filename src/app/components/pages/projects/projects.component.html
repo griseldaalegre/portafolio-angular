@@ -1,0 +1,10 @@
+<div class="container container-projects d-flex flex-column align-items-center">
+    <h1 class=" text-uppercase">Mis Proyectos</h1>
+
+    <div class="d-flex flex-wrap justify-content-center">
+        @for (project of projects; track projects){
+        <app-card [project]="project"></app-card>
+        }
+
+    </div>
+</div>
