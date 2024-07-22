@@ -8,5 +8,29 @@
 }
 
 
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem; 
+  transition: color 0.3s ease, border-bottom 0.3s ease; 
+  position: relative; /*para q se posicione en el borde*/
+}
 
+.navbar-nav .nav-link:hover {
+  color: black; 
+}
 
+.navbar-nav .nav-link::after {
+  content: ''; 
+  display: block; 
+  position: absolute; 
+  left: 0;
+  bottom: 0;
+  width: 0; 
+  height: 2px;
+ /* background-color: #F48BB4;*/ 
+  background-color: #99E3DF;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; 
+}

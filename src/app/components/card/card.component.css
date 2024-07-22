@@ -13,3 +13,15 @@
 .card-text {
     color: #7f8c8d;
 }
+
+  /* Agrega este CSS al archivo styles.css */
+    .custom-btn {
+      color: #222747; /* Color del texto del botón */
+      border-color: #222747; /* Color del borde del botón */
+    }
+
+    .custom-btn:hover {
+      color: #ffffff; /* Color del texto al pasar el ratón por encima */
+      background-color: #222747; /* Color de fondo al pasar el ratón por encima */
+      border-color: #222747; /* Color del borde al pasar el ratón por encima */
+    }
