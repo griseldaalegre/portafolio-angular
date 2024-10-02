@@ -1,15 +1,24 @@
-<div class="container mt-5">
-    <div class="card bg-light border-0 rounded-3 shadow " >
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="./assets/prueba.JPG" class="img-fluid rounded-start" alt="Project Image">
-            </div>
-            <div class="col-md-8 card-color">
-                <div class="card-body">
-                    <h5 class="h5 card-title">{{ project?.name }}</h5>
-                    <p class="card-text">{{ project?.description }}</p>
-                    <a [href]="project?.linkRepository" target="_blank" class="btn btn-outline-primary custom-btn">View Repository</a>
-                </div>
+<div class="container mt-4">
+    <div class="card" style="width: 18rem;">
+        <img src="./assets/d1.png" class="img-fluid rounded-start" alt="Project Image">
+        <div class="d-flex flex-column align-items-center text-justify card-body justify-content-center">
+            <h5 class="h5 card-title">{{ project.name }}</h5>
+            <p class="card-text" (click)="toggleShowMore($event)">
+                {{ getTextoCorto() }}
+                <span *ngIf="!this.showMore">...</span>
+                <span *ngIf="this.showMore">{{ project.description }}</span>
+
+
+                <span class="text-span">{{ textButton }}</span>
+            </p>
+            <div class="container-btn">
+                <a [href]="project.linkRepository" target="_blank" class="btn btn-primary" target="_blank"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Repositorio</a>
+                <a [href]="project.linkGitPages" class="btn btn-secondary" target="_blank"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Página</a>
+
             </div>
         </div>
     </div>

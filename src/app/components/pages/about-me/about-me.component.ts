@@ -16,31 +16,31 @@ export class AboutMeComponent {
     },
     {
       title: "Seminario de Angular",
-      description: "2024. Universidad Nacional del Centro."
+      description: "2024 - Universidad Nacional del Centro."
     },
     {
       title: "Fundamentos de Angular",
-      description: "2024. Crehana."
+      description: "2024 - Crehana."
     },
     {
       title: "Software Tester QA",
-      description: "2022. Educación IT."
+      description: "2022 - Educación IT."
     },
     {
       title: "Curso de Análisis y Diseño de Casos de Pruebas",
-      description: "2022. Educación IT."
+      description: "2022 - Educación IT."
     },
     {
       title: "Programador Web",
-      description: "Centro de Formación profesional n 403."
+      description: "2022 - Centro de Formación profesional n 403."
     },
     {
       title: "Programador full stack",
-      description: "Programa Oracle Next Education, Alura Latam."
+      description: "2022 - Programa Oracle Next Education, Alura Latam."
     },
     {
-      title: "Curso ...",
-      description: "2022. Educación IT."
+      title: "Introducción al lenguaje de Programación",
+      description: "2022 - Educación IT."
     }
   ];
 

@@ -1,27 +1,51 @@
 .card-color {
-    background-color: #f0f4f8;
+  background-color: #f0f4f8;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+
 .card {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 .card-title {
-    color: #2c3e50;
+  color: #2c3e50;
 }
+
+.text-span{
+
+  cursor: pointer;
+}
+
+.text-span {
+  transition: color 0.3s ease; /* Transición suave para cambiar el color */
+}
+
+.text-span:hover {
+  color: #ff6f91!important; /* Color rosa al pasar el mouse */
+}
+
 
 .card-text {
-    color: #7f8c8d;
+  color: #7f8c8d;
 }
 
-  /* Agrega este CSS al archivo styles.css */
-    .custom-btn {
-      color: #222747; /* Color del texto del botón */
-      border-color: #222747; /* Color del borde del botón */
-    }
+.custom-btn {
+  color: #222747;
+  border-color: #222747;
+}
 
-    .custom-btn:hover {
-      color: #ffffff; /* Color del texto al pasar el ratón por encima */
-      background-color: #222747; /* Color de fondo al pasar el ratón por encima */
-      border-color: #222747; /* Color del borde al pasar el ratón por encima */
-    }
+.custom-btn:hover {
+  color: #ffffff;
+  background-color: #222747;
+  border-color: #222747;
+}
+
+.container-btn{
+  display: flex;
+    gap: 20px;
+}
+

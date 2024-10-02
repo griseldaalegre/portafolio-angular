@@ -26,8 +26,7 @@
   bottom: 0;
   width: 0; 
   height: 2px;
- /* background-color: #F48BB4;*/ 
-  background-color: #99E3DF;
+  background-color: #ff6f91;
   transition: width 0.3s ease;
 }
 

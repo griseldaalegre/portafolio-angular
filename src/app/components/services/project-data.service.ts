@@ -10,56 +10,51 @@ export class ProjectDataService {
 
   projects: Project[] = [
     {
-      name: "Proyecto seminario",
-      description: "Web de adopción de mascotas. Los usuarios pueden explorar una lista de mascotas disponibles para adopción, ver detalles específicos de cada mascota y agregarla a una lista de favoritos.",
-      linkRepository: "https://github.com/griseldaalegre/proyecto-seminario-angular",
+      name: "Tienda",
+      description: "Proyecto de tienda web que permite a los usuarios acceder a categorías y listar productos dentro de ellas. Los usuarios pueden agregar productos a un carrito de compras, donde se suma y resta el valor de cada producto según la cantidad de ítems añadidos. La aplicación consume datos desde la API de Fake Store. Se implementaron funcionalidades para visualizar los productos disponibles, mostrando su imagen, nombre, precio y una breve descripción. Además, se puede revisar el carrito en una sección dedicada, donde se puede ajustar la cantidad de productos. Las tecnologías utilizadas para este proyecto fueron Angular, TypeScript, HTML, CSS y Bootstrap.",
+      linkRepository: "https://github.com/griseldaalegre/tienda-deco-angular/tree/master",
+      linkGitPages:"https://griseldaalegre.github.io/tienda-deco-angular/home",
       img: "path/to/image1.jpg"
     },
     {
-      name: "Biblioteca",
-      description: " Biblioteca donde se almacenan libros y se registran usuarios para el préstamo de los mismos. En el proyecto se implementaron tres tipos de usuarios, usuario administrador, usuario normal, usuario publico.",
-      linkRepository: "https://github.com/user/project2",
-      img: "path/to/image2.jpg"
+      name: "Proyecto seminario",
+      description: "Página web de adopción de mascotas que permite a los usuarios explorar una lista de perros disponibles, ver detalles específicos de cada uno y agregar sus favoritos a una lista personal. La aplicación consume datos desde la API de huachitos.cl. Se implementaron las funcionalidades para visualizar las mascotas disponibles, mostrando su imagen, nombre, edad, género y una breve descripción. También se puede agregar mascotas a una lista de favoritos, que se puede revisar en una sección dedicada. Se proporciona información detallada sobre cada mascota al hacer clic en ella, incluyendo su raza y fecha de nacimiento. Se ofrece la posibilidad de eliminar perros de la lista de favoritos según las preferencias del usuario. Las tecnologías utilizadas para este proyecto fueron Angular, TypeScript, HTML y CSS.",
+      linkRepository: "https://github.com/griseldaalegre/proyecto-seminario-angular",
+            linkGitPages:"https://griseldaalegre.github.io/tienda-deco-angular/home",
+      img: "path/to/image1.jpg"
+    },
+    {
+      "name": "Biblioteca",
+      "description": "Proyecto realizado para la cursada de WEB2 de la facultad. Biblioteca donde se almacenan libros y se registran usuarios para su préstamo. Se implementaron tres tipos de usuarios: Administrador, que puede realizar ABM de libros y categorías; Usuario Normal, que tiene acceso a la lista de libros disponibles; y Usuario Público, que no requiere inicio de sesión y no puede acceder a la lista de libros. La gestión de categorías incluye listar, agregar, editar y eliminar categorías, y el acceso a la base de datos se realiza a través de un archivo config.php, que permite la creación automática de la base de datos con datos iniciales si aún no existe. Las tecnologías utilizadas para este proyecto fueron PHP, MySQL, HTML y CSS.",
+      "linkRepository": "https://github.com/user/project2",
+      linkGitPages:"https://griseldaalegre.github.io/tienda-deco-angular/home",
+      "img": "path/to/image2.jpg"
     },
     {
       name: "Portafolio",
-      description: "Description of Project 1",
-      linkRepository: "https://github.com/user/project1",
-      img: "path/to/image1.jpg"
-    },
-    {
-      name: "Project 2",
-      description: "Description of Project 2",
+      description: "Este portafolio presenta una colección de mis proyectos, donde cada uno está acompañado de una descripción detallada. Además, incluye una API REST hardcodeada que almacena la información de cada proyecto, permitiendo una visualización organizada y accesible. Este proyecto ha sido desarrollado utilizando Angular, HTML, CSS y TypeScript.",
       linkRepository: "https://github.com/user/project2",
+      linkGitPages:"https://griseldaalegre.github.io/tienda-deco-angular/home",
+
       img: "path/to/image2.jpg"
     },
     {
       name: "Project 1",
-      description: "Description of Project 1",
+      description: "Proyecto de tienda web que permite a los usuarios acceder a categorías y listar productos dentro de ellas. Los usuarios pueden agregar productos a un carrito de compras, donde se suma y resta el valor de cada producto según la cantidad de ítems añadidos. La aplicación consume datos desde la API de Fake Store. Se implementaron funcionalidades para visualizar los productos disponibles, mostrando su imagen, nombre, precio y una breve descripción. Además, se puede revisar el carrito en una sección dedicada, donde se puede ajustar la cantidad de productos. Las tecnologías utilizadas para este proyecto fueron Angular, TypeScript, HTML, CSS y Bootstrap.",
       linkRepository: "https://github.com/user/project1",
+      linkGitPages:"https://griseldaalegre.github.io/tienda-deco-angular/home",
+
       img: "path/to/image1.jpg"
-    },
-    {
-      name: "Project 2",
-      description: "Description of Project 2",
-      linkRepository: "https://github.com/user/project2",
-      img: "path/to/image2.jpg"
     },
     {
       name: "Project 1",
-      description: "Description of Project 1",
+      description: "Proyecto de tienda web que permite a los usuarios acceder a categorías y listar productos dentro de ellas. Los usuarios pueden agregar productos a un carrito de compras, donde se suma y resta el valor de cada producto según la cantidad de ítems añadidos. La aplicación consume datos desde la API de Fake Store. Se implementaron funcionalidades para visualizar los productos disponibles, mostrando su imagen, nombre, precio y una breve descripción. Además, se puede revisar el carrito en una sección dedicada, donde se puede ajustar la cantidad de productos. Las tecnologías utilizadas para este proyecto fueron Angular, TypeScript, HTML, CSS y Bootstrap.",
       linkRepository: "https://github.com/user/project1",
+      linkGitPages:"https://griseldaalegre.github.io/tienda-deco-angular/home",
+
       img: "path/to/image1.jpg"
-    },
-    {
-      name: "Project 2",
-      description: "Description of Project 2",
-      linkRepository: "https://github.com/user/project2",
-      img: "path/to/image2.jpg"
     }
-
-
-
+   
   ];
 
   constructor() { }
