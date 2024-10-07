@@ -18,5 +18,21 @@ img {
 
 .icon-text {
     margin-left: 5px;
-    /* Ajusta este valor según el espacio deseado */
 }
+
+.item-redes {
+    transition: color 0.3s ease; /* Transición suave para cambiar el color */
+  }
+  
+  .item-redes:hover {
+    color: #ff6f91!important; /* Color rosa al pasar el mouse */
+  }
+  
+  .item-redes i {
+    transition: color 0.3s ease; /* Aseguramos que el ícono también tenga una transición suave */
+  }
+  
+  .item-redes:hover i {
+    color: inherit; /* El ícono hereda el color del enlace en hover */
+  }
+  

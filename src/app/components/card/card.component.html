@@ -1,6 +1,6 @@
 <div class="container mt-4">
     <div class="card" style="width: 18rem;">
-        <img src="./assets/d1.png" class="img-fluid rounded-start" alt="Project Image">
+        <img [src]="project.img" class="img-fluid rounded-start" alt="Project Image">
         <div class="d-flex flex-column align-items-center text-justify card-body justify-content-center">
             <h5 class="h5 card-title">{{ project.name }}</h5>
             <p class="card-text" (click)="toggleShowMore($event)">

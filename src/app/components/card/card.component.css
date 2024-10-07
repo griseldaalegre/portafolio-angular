@@ -1,3 +1,8 @@
+.img-fluid{
+  width: 286px;
+  height: 260px;
+}
+
 .card-color {
   background-color: #f0f4f8;
 }
@@ -5,7 +10,6 @@
 .text-justify {
   text-align: justify;
 }
-
 
 .card {
   max-width: 400px;
@@ -21,11 +25,11 @@
 }
 
 .text-span {
-  transition: color 0.3s ease; /* Transición suave para cambiar el color */
+  transition: color 0.3s ease; 
 }
 
 .text-span:hover {
-  color: #ff6f91!important; /* Color rosa al pasar el mouse */
+  color: #ff6f91!important; 
 }
 
 
