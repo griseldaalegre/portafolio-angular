@@ -4,7 +4,7 @@ import { Router, NavigationEnd, RouterLink } from '@angular/router';
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [RouterLink], // Importa RouterLink ya que el componente es standalone
+  imports: [RouterLink],
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.scss']
 })

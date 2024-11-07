@@ -1,28 +1,28 @@
 .footer-bg {
-    padding: 16px;
-  }
+  padding: 16px;
+}
 
-  footer a{
+footer a {
 
-    font-weight: lighter;
-  }
+  font-weight: lighter;
+}
 
-  .icon-text {
-    margin-left: 5px; /* Ajusta este valor según el espacio deseado */
+.icon-text {
+  margin-left: 5px;
 }
 
 .item-redes {
-  transition: color 0.3s ease; /* Transición suave para cambiar el color */
+  transition: color 0.3s ease;
 }
 
 .item-redes:hover {
-  color: #ff6f91!important; /* Color rosa al pasar el mouse */
+  color: #ff6f91 !important;
 }
 
 .item-redes i {
-  transition: color 0.3s ease; /* Aseguramos que el ícono también tenga una transición suave */
+  transition: color 0.3s ease;
 }
 
 .item-redes:hover i {
-  color: inherit; /* El ícono hereda el color del enlace en hover */
+  color: inherit;
 }

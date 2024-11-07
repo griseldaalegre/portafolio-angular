@@ -1,9 +1,10 @@
-.container{
+.container {
   width: 60%;
 }
+
 .img-fluid {
-  max-height: 200px; /* Ajusta la altura de la imagen */
-  object-fit: cover; /* Asegura que la imagen se ajuste bien */
+  max-height: 200px;
+  object-fit: cover;
 }
 
 .text-justify {
@@ -11,10 +12,10 @@
 }
 
 
-.card-text,.card-title {
-  color: 
-  rgb(33, 37, 41)
-  ;
+.card-text,
+.card-title {
+  color:
+    rgb(33, 37, 41);
 }
 
 .text-span {
@@ -24,7 +25,7 @@
 }
 
 .text-span:hover {
-  color: #ff6f91; /* Color de hover */
+  color: #ff6f91;
 }
 
 .custom-btn {

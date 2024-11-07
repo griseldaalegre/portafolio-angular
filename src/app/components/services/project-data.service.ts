@@ -1,7 +1,7 @@
 
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Project } from '../models/Project'; // Asegúrate de que la ruta a tu modelo Project sea correcta
+import { Project } from '../models/Project'; 
 
 @Injectable({
   providedIn: 'root'

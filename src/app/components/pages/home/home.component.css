@@ -1,6 +1,6 @@
 .container-home {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -9,26 +9,25 @@ h1 {
 }
 
 img {
-    width: 35%;
+  width: 35%;
 }
 
 .icon-text {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .item-redes {
-    transition: color 0.3s ease; 
-  }
-  
-  .item-redes:hover {
-    color: #ff6f91!important; 
-  }
-  
-  .item-redes i {
-    transition: color 0.3s ease;
-  }
-  
-  .item-redes:hover i {
-    color: inherit;
-  }
-  
+  transition: color 0.3s ease;
+}
+
+.item-redes:hover {
+  color: #ff6f91 !important;
+}
+
+.item-redes i {
+  transition: color 0.3s ease;
+}
+
+.item-redes:hover i {
+  color: inherit;
+}

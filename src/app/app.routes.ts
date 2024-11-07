@@ -4,8 +4,6 @@ import { AboutMeComponent } from './components/pages/about-me/about-me.component
 import { NgModule } from '@angular/core';
 import { ProjectsComponent } from './components/pages/projects/projects.component';
 
-//importo el componente que necesito mostar segun sel path que tenga
-
 export const routes: Routes = [
     {
         path: "",

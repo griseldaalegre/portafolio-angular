@@ -1,31 +1,33 @@
-/* Mantén el estilo original para .nav-link en el navbar */
-.navbar-nav .nav-link, .navbar-brand {
-  padding: 0.5rem 1rem; 
-  transition: color 0.3s ease, border-bottom 0.3s ease; 
+.navbar-nav .nav-link,
+.navbar-brand {
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
   position: relative;
 }
 
-.navbar-nav .nav-link:hover, .navbar-brand:hover {
-  color: #ff6f91; /* Color rosa para el hover */
+.navbar-nav .nav-link:hover,
+.navbar-brand:hover {
+  color: #ff6f91;
 }
 
-.navbar-nav .nav-link::after, .navbar-brand::after {
-  content: ''; 
-  display: block; 
-  position: absolute; 
+.navbar-nav .nav-link::after,
+.navbar-brand::after {
+  content: '';
+  display: block;
+  position: absolute;
   left: 0;
   bottom: 0;
-  width: 0; 
+  width: 0;
   height: 2px;
   background-color: #ff6f91;
   transition: width 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover::after, .navbar-brand:hover::after {
-  width: 100%; 
+.navbar-nav .nav-link:hover::after,
+.navbar-brand:hover::after {
+  width: 100%;
 }
 
 .navbar a {
-  font-size:25px;
+  font-size: 25px;
 }
-
