@@ -3,13 +3,9 @@
     align-items: center;
 }
 
-p {
-    color:
-        rgb(53, 56, 59);
-}
 
 h1 {
-    font-weight: unset;
+  font-weight: lighter;
 }
 
 img {
@@ -21,18 +17,18 @@ img {
 }
 
 .item-redes {
-    transition: color 0.3s ease; /* Transición suave para cambiar el color */
+    transition: color 0.3s ease; 
   }
   
   .item-redes:hover {
-    color: #ff6f91!important; /* Color rosa al pasar el mouse */
+    color: #ff6f91!important; 
   }
   
   .item-redes i {
-    transition: color 0.3s ease; /* Aseguramos que el ícono también tenga una transición suave */
+    transition: color 0.3s ease;
   }
   
   .item-redes:hover i {
-    color: inherit; /* El ícono hereda el color del enlace en hover */
+    color: inherit;
   }
   

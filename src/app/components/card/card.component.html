@@ -1,24 +1,23 @@
 <div class="container mt-4">
-    <div class="card" style="width: 18rem;">
-        <img [src]="project.img" class="img-fluid rounded-start" alt="Project Image">
-        <div class="d-flex flex-column align-items-center text-justify card-body justify-content-center">
+    <div class="row g-0 bg-light text-light position-relative rounded">
+        <div class="col-md-6 mb-md-0 p-md-4">
+            <img [src]="project.img" class="img-fluid rounded-start w-100 h-100" alt="Project Image">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0 d-flex flex-column justify-content-center">
             <h5 class="h5 card-title">{{ project.name }}</h5>
-            <p class="card-text" (click)="toggleShowMore($event)">
+            <p class="card-text text-justify" (click)="toggleShowMore($event)">
                 {{ getTextoCorto() }}
-                <span *ngIf="!this.showMore">...</span>
+                <span *ngIf="!this.showMore">... </span>
                 <span *ngIf="this.showMore">{{ project.description }}</span>
-
-
                 <span class="text-span">{{ textButton }}</span>
             </p>
-            <div class="container-btn">
-                <a [href]="project.linkRepository" target="_blank" class="btn btn-primary" target="_blank"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            <div class="container-btn mt-3">
+                <a [href]="project.linkRepository" target="_blank" class="btn btn-primary custom-btn">
                     Repositorio</a>
-                <a [href]="project.linkGitPages" class="btn btn-secondary" target="_blank"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                    Página</a>
 
+                  
+                <a  *ngIf="project.name != 'Biblioteca'" [href]="project.linkGitPages"   target="_blank" class="btn btn-secondary custom-btn" id="btn-page">
+                    Página</a>
             </div>
         </div>
     </div>

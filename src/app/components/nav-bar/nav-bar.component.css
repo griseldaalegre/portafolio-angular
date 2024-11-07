@@ -1,24 +1,15 @@
-.navbar, .container-fluid{
-  padding: 13px;
-}
-
-.navbar a {
-  font-size:25px;
-  font-weight: lighter;
-}
-
-
-.navbar-nav .nav-link {
+/* Mantén el estilo original para .nav-link en el navbar */
+.navbar-nav .nav-link, .navbar-brand {
   padding: 0.5rem 1rem; 
   transition: color 0.3s ease, border-bottom 0.3s ease; 
-  position: relative; /*para q se posicione en el borde*/
+  position: relative;
 }
 
-.navbar-nav .nav-link:hover {
-  color: black; 
+.navbar-nav .nav-link:hover, .navbar-brand:hover {
+  color: #ff6f91; /* Color rosa para el hover */
 }
 
-.navbar-nav .nav-link::after {
+.navbar-nav .nav-link::after, .navbar-brand::after {
   content: ''; 
   display: block; 
   position: absolute; 
@@ -30,6 +21,11 @@
   transition: width 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover::after {
+.navbar-nav .nav-link:hover::after, .navbar-brand:hover::after {
   width: 100%; 
 }
+
+.navbar a {
+  font-size:25px;
+}
+

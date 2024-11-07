@@ -13,25 +13,24 @@ export class CardComponent {
 
 
   showMore: boolean = false;
-  textButton: string = "Ver Más";
+  textButton: string = "Ver más";  
 
-  //mostrarCompleto = false;
   @Input()
   project!: Project;
 
 
   getTextoCorto(): string {
-    return this.project.description.substring(0, 110); // Muestra solo los primeros 100 caracteres
+    return this.project.description.substring(0, 200); // Muestra solo los primeros 100 caracteres
   }
 
   toggleShowMore(event: Event): void {
     event.preventDefault();
     this.showMore = !this.showMore;
-    if(this.showMore){
-      this.textButton = "Ver menos"  
-    }else{
-      this.textButton ="Ver Más";
+    if (this.showMore) {
+      this.textButton = "Ver menos"
+    } else {
+      this.textButton = "Ver más";
     }
-
   }
+
 }
